@@ -65,5 +65,8 @@
             </div>
         </div>
     </form>
+    <script type="text/javascript">
+        document.getElementById("MyTextBox").focus();
+    </script>
 </body>
 </html>
