@@ -1,2 +1,99 @@
-﻿body {
+﻿body 
+{
+    background-color: #202020;
+    font-size: 62.5%;
+    font-family: 'Corbel', sans-serif;
+    line-height: 1.2;
+    color: #b81d18;
+}
+
+h1, h2 
+{
+    display: block;
+    font-family: 'Corbel', sans-serif;
+    font-size: 2rem;
+    color: inherit;
+}
+
+h2 
+{
+    font-size: 1.6rem;
+}
+
+p, a 
+{
+    font-size: 1.2rem;
+    color: inherit;
+}
+
+#maincontainer 
+{
+    width: 650px;
+    height: auto;
+    margin: auto;
+    padding: 20px;
+    overflow: hidden;
+}
+
+#content 
+{
+    margin-left:100px;
+}
+
+#TitleLabel 
+{
+    margin-left:100px;
+    color: #3a3a3a;
+}
+
+#ReceiptLabel 
+{
+    margin-left: 4px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#receiptPanel 
+{
+    margin-top: 50px;
+    width: 200px;
+    height: 300px;
+    border: solid 1px #000;
+    color:#FFB67F;
+}
+
+
+#Label
+{
+    margin-left: 70px;
+    font-size: 13px;
+}
+
+#BranschNoLabel 
+{
+    margin-left: 35px;
+    font-size: 13px;
+}
+
+#GreetingsLabel 
+{
+    margin-left: 35px;
+    font-size: 13px;
+}
+
+#phoneLabel 
+{
+    margin-left: 35px;
+    font-size: 13px;
+}
+
+#OpeningHoursLabel 
+{
+    margin-left: 35px;
+    font-size: 13px;
+}
+
+#RequiredFieldValidator1, #CompareValidator1, #CompareValidator2 
+{
+    color: #b81d18;
 }
