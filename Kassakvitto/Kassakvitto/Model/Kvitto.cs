@@ -10,7 +10,7 @@ namespace Kassakvitto.Model
         //Privat fält
         private double _subtotal;
 
-        //Visar rabatten i procent
+        //Hämtar rabatten i double
         public double DiscountRate
         {
 
@@ -19,7 +19,7 @@ namespace Kassakvitto.Model
 
         }
 
-        //Visar rabatten i kronor
+        //Hämtar rabatten i double
         public double MoneyOff 
         {
 
@@ -28,7 +28,7 @@ namespace Kassakvitto.Model
 
         }
 
-        //Visar den totala köpesumman 
+        //Den totala köpesumman med ett felmeddelande
         public double Subtotal
         {
             get 
@@ -45,7 +45,7 @@ namespace Kassakvitto.Model
             }
         }
 
-        //Visar beloppet efter att rabatten dragits från den totala köpesumman
+        //Beloppet efter att rabatten dragits från den totala köpesumman
         public double Total 
         {
 
